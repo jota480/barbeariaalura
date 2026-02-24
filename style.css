@@ -50,3 +50,11 @@ em strong {
     color: #FF0000;
 }
 
+
+.titulo-principal{
+    padding: 20px;
+}
+
+.titulo-centralizado{
+    text-align: center;
+}
