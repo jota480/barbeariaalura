@@ -32,6 +32,35 @@
         
         <label for="telefone">telefone</label>
         <input type="text" id="telefone">
+       
+        <label for="mensagem">mensagem</label>
+        <input type="text" id="mensagem" cols="70" rows="10"></textarea>
+
+        <div>
+            <p>Como prefer o nosso contato?</p>
+            <label for="radio-email">
+                <input type="radio" name="contato" value="Email" id="radio-email"> Email
+            </label>
+            <label for="radio-telefone">
+                <input type="radio" name="contato" value="telefone" id="radio-telefone"> telefone
+            </label>
+            <Label for="radio-whatsapp">
+                <input type="radio" name="contato" value="whatsapp" id="radio-whatsapp"> whatsapp
+            </Label>
+
+        </div>
+        <div>
+            <p>Qual horsrio prefere ser atendido</p>
+            <select>
+                <option>Manhã</option>
+                <option>Tarde</option>
+                <option>Noite</option>
+            </select>
+        </div>
+        <label class="checkbox">
+            <input type="checkbox">
+            Gostaria de receber nossas novidades por Email?
+        </label>
         
         <input type="submit" id="enviar formulario">
         
